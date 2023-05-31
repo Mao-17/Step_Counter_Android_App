@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/step_count_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step count: 0"
+        android:textSize="24sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/direction_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direction: Unknown"
+        android:textSize="24sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/lift_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lift vs Stairs: Unknown"
+        android:textSize="24sp"
+        android:padding="16dp"/>
+
+    <com.example.myapplication.TrajectoryView
+        android:id="@+id/trajectory_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:background="#FFF1E0" />
+
+
+</LinearLayout>
